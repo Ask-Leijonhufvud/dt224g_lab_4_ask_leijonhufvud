@@ -13,5 +13,12 @@ let isStudent = false;
 
 // PRINT VARIABLES
 // PRINT: Namn: [gven name] [surname]
+console.log(`Namn: ${forename} ${lastname}`);
 // PRINT: Ålder: [age]
+console.log(`Ålder: ${age}`);
 // PRINT: Student: (Ja/Nej)
+if (student === true) {
+    console.log("Student: Ja");
+} else {
+    console.log("Student: Nej");
+}
