@@ -15,6 +15,10 @@ let totalPriceWithVAT = totalPrice * 1.25;
 
 // PRINT VALUES
 // PRINT: Styckpris: [price per unit] kr
+console.log(`Styckpris: ${pricePerUnit} kr`);
 // PRINT: Antal: [quantity] st
+console.log(`Antal: ${quantity} st`);
 // PRINT: Totalt: [total price] kr
+console.log(`Totalt pris: ${totalPrice} kr`);
 // PRINT: Totalt inkl. moms: [total price + VAT] kr
+console.log(`Totalt pris (inklusive moms): ${totalPriceWithVAT} kr`);
