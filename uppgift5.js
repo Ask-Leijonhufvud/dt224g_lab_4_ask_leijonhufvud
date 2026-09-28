@@ -17,5 +17,6 @@ console.log(food[food.length - 1]); // last index in array will be length -1
 food.push("Schnitzel");
 
 // REMOVE FIRST ELEMENT IN ARRAY
+food.shift();
 
 // PRINT WHOLE ARRAY AGAIN
