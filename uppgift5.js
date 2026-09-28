@@ -11,6 +11,7 @@ console.table(food);
 console.log(food[0]);
 
 // PRINT LAST ELEMENT IN ARRAY
+console.log(food[food.length - 1]); // last index in array will be length -1
 
 // ADD NEW ELEMENT TO END OF ARRAY
 
