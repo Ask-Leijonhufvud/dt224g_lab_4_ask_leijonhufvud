@@ -5,6 +5,7 @@
 let food = ["Lasagn", "Spaghetti", "Ramen", "Pad Thai", "Stuvade Makaroner"];
 
 // PRINT WHOLE ARRAY
+console.table(food);
 
 // PRINT FIRST ELEMENT IN ARRAY
 
