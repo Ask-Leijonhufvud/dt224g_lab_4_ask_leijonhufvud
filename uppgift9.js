@@ -35,7 +35,13 @@ let people = [
 ];
 
 // forEach-loop
+people.forEach(person => {
     // IF age < 18
+    if (person.age < 18) {
         // PRINT name bor i place och är inte myndig.
-    // ELSE
+        console.log(`${person.name} bor i ${person.place} och är inte myndig.`);
+    } else { // ELSE
         // PRINT name bor i place och är myndig.
+        console.log(`${person.name} bor i ${person.place} och är myndig.`);
+    }
+});
