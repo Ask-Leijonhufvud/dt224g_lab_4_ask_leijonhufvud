@@ -10,9 +10,11 @@ if (age < 18) {
     // PRINT: Barn
     console.log("Barn");
 } else if (age < 65) { // ELSE IF age < 65
-    // since (age < 18) has already been caught, this will trigger on (18 <= age <= 64)
+    // since (age < 18) has already been caught, this will trigger on (18 <= age < 65)
     // PRINT: Vuxen
     console.log("Vuxen");
-}
-// ELSE
+} else { // ELSE
+    // since (age < 65) has already been caught, this will trigger on (age >= 65)
     // PRINT: Pensionär
+    console.log("Pensionär");
+}
