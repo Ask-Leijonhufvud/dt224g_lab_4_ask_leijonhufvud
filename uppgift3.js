@@ -2,6 +2,7 @@
 "use strict";
 
 // STORE AGE
+let age = 15;
 
 // IF-ELSE TREE
 // IF age < 18
