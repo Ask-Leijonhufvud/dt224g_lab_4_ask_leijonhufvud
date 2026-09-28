@@ -2,8 +2,10 @@
 "use strict";
 
 // STORE VARIABLES
-// VARIABLE: float: price perunit
+// VARIABLE: float: price per unit
+let pricePerUnit = 100.00;
 // VARIABLE: integer: quantity
+let quantity = 3;
 
 // CALCULATE
 // total price = price per unit * quantity
