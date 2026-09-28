@@ -18,3 +18,4 @@ function sumArray(numbers) {
 }
 
 // CALL sumArray, PRINT RESULT
+console.log(sumArray(numbers));
