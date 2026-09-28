@@ -12,6 +12,11 @@ let theGeneralDancedAtDawn = {
 };
 
 // FUNCTION printBook(book)
+function printBook(book) {
     // PRINT: Titel: book.title
+    console.log(`Titel: ${book.title}`);
     // PRINT: Författare: book.author
+    console.log(`Författare: ${book.author}`);
     // PRINT: Utgivningsår: book.year
+    console.log(`Utgivningsår: ${book.year}`);
+}
