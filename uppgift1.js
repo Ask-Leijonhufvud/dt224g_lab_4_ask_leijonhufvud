@@ -3,9 +3,13 @@
 
 // VARIABLES
 // string: given name
+let forename = "Malin";
 // string: surname
+let lastname = "Larsson";
 // integer: age
+let age = 30;
 // boolean: is student?
+let isStudent = false;
 
 // PRINT VARIABLES
 // PRINT: Namn: [gven name] [surname]
