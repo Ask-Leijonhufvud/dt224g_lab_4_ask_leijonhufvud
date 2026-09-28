@@ -9,7 +9,9 @@ let quantity = 3;
 
 // CALCULATE
 // total price = price per unit * quantity
+let totalPrice = pricePerUnit * quantity;
 // total price + VAT = total price * 1.25
+let totalPriceWithVAT = totalPrice * 1.25;
 
 // PRINT VALUES
 // PRINT: Styckpris: [price per unit] kr
