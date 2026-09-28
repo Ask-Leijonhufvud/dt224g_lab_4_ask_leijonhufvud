@@ -17,7 +17,7 @@ console.log(`Namn: ${forename} ${lastname}`);
 // PRINT: Ålder: [age]
 console.log(`Ålder: ${age}`);
 // PRINT: Student: (Ja/Nej)
-if (student === true) {
+if (isStudent === true) {
     console.log("Student: Ja");
 } else {
     console.log("Student: Nej");
