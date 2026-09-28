@@ -2,6 +2,7 @@
 "use strict";
 
 // CREATE ARRAY OF MIN 6 NUMBERS
+let numbers = [1, 2, 3, 5, 7, 11, 13];
 
 // FUNCTION sumArray
     // PARAMETERS numbers[]
