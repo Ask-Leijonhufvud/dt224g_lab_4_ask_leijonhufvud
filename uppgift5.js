@@ -8,6 +8,7 @@ let food = ["Lasagn", "Spaghetti", "Ramen", "Pad Thai", "Stuvade Makaroner"];
 console.table(food);
 
 // PRINT FIRST ELEMENT IN ARRAY
+console.log(food[0]);
 
 // PRINT LAST ELEMENT IN ARRAY
 
