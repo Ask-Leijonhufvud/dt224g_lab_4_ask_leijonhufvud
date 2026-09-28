@@ -20,3 +20,4 @@ food.push("Schnitzel");
 food.shift();
 
 // PRINT WHOLE ARRAY AGAIN
+console.table(food);
