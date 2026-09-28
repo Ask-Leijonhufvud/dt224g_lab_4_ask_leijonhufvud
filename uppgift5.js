@@ -14,6 +14,7 @@ console.log(food[0]);
 console.log(food[food.length - 1]); // last index in array will be length -1
 
 // ADD NEW ELEMENT TO END OF ARRAY
+food.push("Schnitzel");
 
 // REMOVE FIRST ELEMENT IN ARRAY
 
