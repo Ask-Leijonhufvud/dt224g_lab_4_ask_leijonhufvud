@@ -2,15 +2,17 @@
 "use strict";
 
 // STORE AGE
-let age = 18;
+let age = 65;
 
 // IF-ELSE TREE
 // IF age < 18
 if (age < 18) {
     // PRINT: Barn
     console.log("Barn");
-}
-// ELSE IF age < 65
+} else if (age < 65) { // ELSE IF age < 65
+    // since (age < 18) has already been caught, this will trigger on (18 <= age <= 64)
     // PRINT: Vuxen
+    console.log("Vuxen");
+}
 // ELSE
     // PRINT: Pensionär
