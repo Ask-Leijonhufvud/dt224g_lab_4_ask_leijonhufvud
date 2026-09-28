@@ -20,3 +20,5 @@ function printBook(book) {
     // PRINT: Utgivningsår: book.year
     console.log(`Utgivningsår: ${book.year}`);
 }
+
+printBook(theGeneralDancedAtDawn);
