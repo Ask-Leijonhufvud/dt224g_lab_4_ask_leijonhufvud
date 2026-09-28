@@ -2,6 +2,7 @@
 "use strict";
 
 // CREATE ARRAY
+let food = ["Lasagn", "Spaghetti", "Ramen", "Pad Thai", "Stuvade Makaroner"];
 
 // PRINT WHOLE ARRAY
 
